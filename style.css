@@ -7,6 +7,7 @@ h1 {
 
 body {
     color: white;
+    font-style: normal 16px Roboto, opensans; 
 }
 nav {
     background-color: white;
@@ -22,11 +23,22 @@ top: 20px;
 left: 30px;
 motion:none;
 }
+.b1 {
+position: absolute;
+left: 25px;
+top: 185px;
+color: black;
+}
+.b2 {
+position: absolute;
+left: 445px;
+top: 185px;
+}
 
 html {
     --s: 30px; /* the size */
     --c1: green;
-    --c2: black;
+    --c2: rgb(112, 48, 20);
     
     background:
       conic-gradient(at 60% 60%,var(--c1) 75%,#0000 0)
